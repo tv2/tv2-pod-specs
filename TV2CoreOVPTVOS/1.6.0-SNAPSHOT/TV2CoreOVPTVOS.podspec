@@ -6,7 +6,7 @@
     s.platform        = :tvos, '7.0'
     s.source_files    = '*.h'
     s.preserve_paths  = 'libTV2CoreOVPTVOS.a'
-    s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"/TV2CoreOVPTVOS"'}
+    s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TV2CoreOVPTVOS"'}
     s.requires_arc    = true
     s.libraries       = 'TV2CoreOVPTVOS'
 
