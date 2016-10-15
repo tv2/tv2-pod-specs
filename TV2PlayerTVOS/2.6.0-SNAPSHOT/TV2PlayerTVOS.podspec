@@ -11,7 +11,7 @@
     s.weak_frameworks = 'AVKit'
     s.requires_arc 	= true
 
-    s.dependency 'SDWebImage', '~>3.7'
+    
 
     
     s.dependency 'GallupStreamMeasurement.tvos', '1.4.3'
@@ -19,5 +19,6 @@
     s.dependency 'AdobeVideoHeartbeat.tvos', '1.5.5'
     s.dependency 'TV2CoreOVPTVOS', '~> 1.6'
 
+    s.dependency 'SDWebImage', '3.7.5'
 
     end
