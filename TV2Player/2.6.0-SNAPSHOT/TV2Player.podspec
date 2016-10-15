@@ -10,9 +10,8 @@
     s.frameworks      = 'TV2Player', 'Accelerate'
     s.weak_frameworks = 'AVKit'
     s.requires_arc 	= true
-    s.ios.resource    = 'TV2Player.framework/Versions/A/Resources/TV2Player.bundle'
 
-    s.dependency 'SDWebImage', '~>3.7'
+        s.ios.resource    = 'TV2Player.framework/Versions/A/Resources/TV2Player.bundle'
 
     
     s.dependency 'MSPlayReady', '2.3.2000tv2'
@@ -24,5 +23,6 @@
     s.dependency 'LivePass', '2.90.0.24059'
     s.dependency 'TV2CoreOVP', '~> 1.6'
 
+    s.dependency 'SDWebImage', '3.7.5'
 
     end
