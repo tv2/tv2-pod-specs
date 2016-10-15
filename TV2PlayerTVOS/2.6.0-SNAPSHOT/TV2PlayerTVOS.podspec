@@ -6,7 +6,7 @@
     s.platform        = :tvos, '7.0'
     s.preserve_paths  = 'TV2PlayerTVOS.framework'
     s.ios.vendored_frameworks = 'TV2PlayerTVOS.framework'
-    s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => "'/TV2PlayerTVOS'" }
+    s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/TV2PlayerTVOS"' }
     s.frameworks      = 'TV2PlayerTVOS', 'Accelerate'
     s.weak_frameworks = 'AVKit'
     s.requires_arc 	= true
