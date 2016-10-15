@@ -10,7 +10,6 @@
     s.frameworks      = 'TV2PlayerTVOS', 'Accelerate'
     s.weak_frameworks = 'AVKit'
     s.requires_arc 	= true
-    s.ios.resource    = 'TV2PlayerTVOS.framework/Versions/A/Resources/TV2Player.bundle'
 
     s.dependency 'SDWebImage', '~>3.7'
 
