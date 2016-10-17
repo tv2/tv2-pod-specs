@@ -13,8 +13,7 @@
     s.ios.resource    = 'TV2Player.framework/Versions/A/Resources/TV2Player.bundle'
 
     s.dependency 'SDWebImage', '~>3.7'
-if [ ios = "ios" ]
-then
+
     s.dependency 'MSPlayReady', '2.3.2000tv2'
     s.dependency 'Widevine', '6.0.0.12792'
     s.dependency 'GoogleCast', '2.10.1'
@@ -23,12 +22,5 @@ then
     s.dependency 'AdobeMobile', '4.8.1'
     s.dependency 'LivePass', '2.90.0.24059'
     s.dependency 'TV2CoreOVP', '~> 1.6'
-elif [ ios = "tvos" ]
-then
-    s.dependency 'GallupStreamMeasurement.tvos', '1.4.3'
-    s.dependency 'AdobeMobile.tvos', '4.8.1'
-    s.dependency 'AdobeVideoHeartbeat.tvos', '1.5.5'
-    s.dependency 'TV2CoreOVPTVOS', '~> 1.6'
-fi
 
     end
