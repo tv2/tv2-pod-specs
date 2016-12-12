@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.resource    = 'TV2Player.framework/Versions/A/Resources/TV2Player.bundle'
 
   s.dependency 'MSPlayReady', '2.3.2000tv2'
-  s.dependency 'GallupStreamMeasurement', '1.3.5.1'
+  s.dependency 'GallupStreamMeasurement', '1.3.5'
   s.dependency 'Widevine', '6.0.0.12792'
   s.dependency 'AdobeVideoHeartbeat', '1.5.5'
   s.dependency 'AdobeMobile', '4.8.1'
