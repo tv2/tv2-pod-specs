@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name            = "GallupStreamMeasurement"
-  s.version         = "1.3.5.1"
+  s.version         = "1.4.0"
   s.homepage        = "http://www.springstream.org/"
-  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/de/spring/mobile/app-streaming-ios/1.3.5.1/app-streaming-ios-1.3.5.1.zip" }
+  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/de/spring/mobile/app-streaming-ios/1.4.0/app-streaming-ios-1.4.0.zip" }
   s.platform        = :ios
   s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/GallupStreamMeasurement"',
                         'OTHER_LDFLAGS' => '"$(PODS_ROOT)/GallupStreamMeasurement/spring-appstreaming-device.a"' }
