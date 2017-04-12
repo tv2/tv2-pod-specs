@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name            = "TV2Player"
   s.version         = "2.5.4"
   s.homepage        = "http://tv2.dk/"
-  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/tv2/syndicatedplayer/ios/syndicated-player/2.5.3/syndicated-player-2.5.4.zip" }
+  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/tv2/syndicatedplayer/ios/syndicated-player/2.5.4/syndicated-player-2.5.4.zip" }
   s.platform        = :ios, '7.0'
   s.preserve_paths  = 'TV2Player.framework'
   s.ios.vendored_frameworks = 'TV2Player.framework'
