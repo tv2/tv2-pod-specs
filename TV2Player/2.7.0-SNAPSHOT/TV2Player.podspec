@@ -17,7 +17,7 @@
     s.dependency 'Widevine', '6.0.0.12792'
     s.dependency 'GoogleCast', '2.10.1'
     s.dependency 'GoogleAds-IMA-iOS-SDK', '3.4.1'
-    s.dependency 'GallupStreamMeasurement', '1.3.5'
+    s.dependency 'GallupStreamMeasurement', '1.4.4'
     s.dependency 'AdobeVideoHeartbeat', '1.5.5'
     s.dependency 'AdobeMobile', '4.8.1'
     s.dependency 'LivePass', '2.90.0.24059'
