@@ -2,7 +2,7 @@
     s.name            = "TV2PlayerTVOS"
     s.version         = "2.7.1"
     s.homepage        = "http://tv2.dk/"
-    s.source          = { :http => "http://repository.neonstingray.com/service/local/repositories/thirdparty/content/tv2/syndicatedplayer/tvos/syndicated-player/2.7.0/TV2PlayerTVOS-2.7.0.zip" }
+    s.source          = { :http => "http://repository.neonstingray.com/service/local/repositories/thirdparty/content/tv2/syndicatedplayer/tvos/syndicated-player/2.7.1/TV2PlayerTVOS-2.7.1.zip" }
     s.platform        = :tvos, '9.0'
     s.preserve_paths  = 'TV2PlayerTVOS.framework'
     s.ios.vendored_frameworks = 'TV2PlayerTVOS.framework'

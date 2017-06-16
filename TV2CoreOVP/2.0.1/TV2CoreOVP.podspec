@@ -2,8 +2,8 @@
     s.name            = "TV2CoreOVP"
     s.version         = "2.0.1"
     s.homepage        = "http://tv2.dk/"
-    s.source          = { :http => "http://repository.neonstingray.com/service/local/repositories/thirdparty/content/tv2/core/ovp/ios/core-ovp/2.0.0/TV2CoreOVP-2.0.0.zip" }
-    s.platform        = :ios, '7.0'
+    s.source          = { :http => "http://repository.neonstingray.com/service/local/repositories/thirdparty/content/tv2/core/ovp/ios/core-ovp/2.0.1/TV2CoreOVP-2.0.1.zip" }
+    s.platform        = :ios, '9.0'
     s.source_files    = '*.h'
     s.preserve_paths  = 'libTV2CoreOVP.a'
     s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/TV2CoreOVP"'}
