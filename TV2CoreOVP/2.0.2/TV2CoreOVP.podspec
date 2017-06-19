@@ -1,8 +1,8 @@
     Pod::Spec.new do |s|
     s.name            = "TV2CoreOVP"
-    s.version         = "2.0.1"
+    s.version         = "2.0.2"
     s.homepage        = "http://tv2.dk/"
-    s.source          = { :http => "http://repository.neonstingray.com/service/local/repositories/thirdparty/content/tv2/core/ovp/ios/core-ovp/2.0.1/TV2CoreOVP-2.0.1.zip" }
+    s.source          = { :http => "http://repository.neonstingray.com/service/local/repositories/thirdparty/content/tv2/core/ovp/ios/core-ovp/2.0.1/TV2CoreOVP-2.0.2.zip" }
     s.platform        = :ios, '7.0'
     s.source_files    = '*.h'
     s.preserve_paths  = 'libTV2CoreOVP.a'
