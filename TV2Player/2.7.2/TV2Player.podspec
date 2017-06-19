@@ -21,7 +21,7 @@
     s.dependency 'AdobeVideoHeartbeat', '1.5.5'
     s.dependency 'AdobeMobile', '4.8.1'
     s.dependency 'LivePass', '2.90.0.24059'
-    s.dependency 'TV2CoreOVP', '~> 2.0.1'
+    s.dependency 'TV2CoreOVP', '~> 2.0.3'
 
     s.dependency 'SDWebImage', '3.7.5'
 

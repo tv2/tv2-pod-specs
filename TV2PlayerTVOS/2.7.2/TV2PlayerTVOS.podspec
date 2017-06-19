@@ -14,7 +14,7 @@
     s.dependency 'GallupStreamMeasurement.tvos', '1.4.1'
     s.dependency 'AdobeMobile.tvos', '4.8.1'
     s.dependency 'AdobeVideoHeartbeat.tvos', '1.5.5'
-    s.dependency 'TV2CoreOVPTVOS', '~> 2.0.1'
+    s.dependency 'TV2CoreOVPTVOS', '~> 2.0.3'
 
     s.dependency 'SDWebImage', '3.7.5'
 
