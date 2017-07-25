@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.dependency 'LivePass', '2.90.0.24059'
   s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'SDWebImage', '3.7.5'
-  s.dependency 'TV2CoreOVP', '1.5.4'
+  s.dependency 'TV2CoreOVP', '~> 1.5.4'
   s.dependency 'GoogleAds-IMA-iOS-SDK', '3.5.2'
 end
