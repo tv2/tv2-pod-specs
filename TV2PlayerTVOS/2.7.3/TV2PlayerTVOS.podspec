@@ -10,11 +10,14 @@
     s.frameworks      = 'TV2PlayerTVOS', 'Accelerate'
     s.weak_frameworks = 'AVKit'
     s.requires_arc 	= true
+
+    
+
     
     s.dependency 'GallupStreamMeasurement.tvos', '1.4.1'
     s.dependency 'AdobeMobile.tvos', '4.8.1'
     s.dependency 'AdobeVideoHeartbeat.tvos', '1.5.5'
-    s.dependency 'TV2CoreOVPTVOS', '~> 2.0.3'
+    s.dependency 'TV2CoreOVPTVOS', '~> 2.0.9'
 
     s.dependency 'SDWebImage', '3.7.5'
 
