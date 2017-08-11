@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.dependency 'Widevine', '6.0.0.12792'
   s.dependency 'AdobeVideoHeartbeat', '1.5.5'
   s.dependency 'AdobeMobile', '4.8.1'
-  s.dependency 'GoogleCast', '2.10.1'
+  s.dependency 'GoogleCast', '3.5.2'
   s.dependency 'LivePass', '2.90.0.24059'
   s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'SDWebImage', '3.7.5'
