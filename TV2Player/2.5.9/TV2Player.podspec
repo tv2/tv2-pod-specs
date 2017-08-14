@@ -2,8 +2,8 @@ Pod::Spec.new do |s|
   s.name            = "TV2Player"
   s.version         = "2.5.9"
   s.homepage        = "http://tv2.dk/"
-  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/tv2/syndicatedplayer/ios/syndicated-player/2.5.9/syndicated-player-2.5.9.zip" }
-  s.platform        = :ios, '7.0'
+  s.source           = { :git => "git@github.com:tv2/tv2-player-cocoa.git", :branch => "release/2.5.9", :tag => '2.5.9' }
+  s.platform        = :ios, '8.0'
   s.preserve_paths  = 'TV2Player.framework'
   s.ios.vendored_frameworks = 'TV2Player.framework'
   s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => "'${PODS_ROOT}/TV2Player'" }
