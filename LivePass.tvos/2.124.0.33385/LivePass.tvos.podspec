@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "LivePass.tvos"
-  s.version         = "2.101.0.27832"
+  s.version         = "2.124.0.33385"
   s.homepage        = "https://developer.conviva.com"
   s.source          = { :http => "http://nguyens.dk/nam/tv2/livepass-2.124.0.33385.zip" }
   s.platform        = :tvos
