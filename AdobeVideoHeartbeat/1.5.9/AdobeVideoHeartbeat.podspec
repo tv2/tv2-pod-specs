@@ -7,6 +7,6 @@ s.source          = { :git => "https://github.com/Adobe-Marketing-Cloud/video-he
   s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/AdobeVideoHeartbeat"',
                         'OTHER_LDFLAGS' => '"$(PODS_ROOT)/AdobeVideoHeartbeat/VideoHeartbeat.a"'}
   s.preserve_paths  = 'VideoHeartbeat.a'
-  s.source_files    = 'sdks/ios/libs/*'
+  s.source_files    = {'sdks/ios/libs/Headers/*.h', 'sdks/ios/libs/VideoHeartbeat.a'}
 end
 
