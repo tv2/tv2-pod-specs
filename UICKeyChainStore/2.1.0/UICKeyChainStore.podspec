@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license         = 'MIT'
   s.homepage        = 'https://github.com/kishikawakatsumi/UICKeyChainStore'
   s.author          = { 'Kishikawa Katsumi' => 'kishikawakatsumi@mac.com' }
-  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/com/uickeychainstore/ios/keychain-store/2.1.0/keychain-store-2.1.0.zip" }
+s.source          = { :git => "https://github.com/kishikawakatsumi/UICKeyChainStore", :tag => "v2.1.0" }
   s.frameworks      = 'Security', 'Foundation'
   s.source_files    = 'Lib/UICKeyChainStore/*.{h,m}'
   s.requires_arc    = true

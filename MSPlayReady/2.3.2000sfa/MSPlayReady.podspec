@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary         = "Playready SDK"
   s.version         = "2.3.2000sfa"
   s.homepage        = "http://www.microsoft.com/playready/features/ClientOptions.aspx"
-  s.source          = { :http => "http://repository.neonstingray.com/content/repositories/thirdparty/com/microsoft/playready/ios/playready-player/2.3.2000sfa/playready-player-2.3.2000sfa.zip" }
+  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/msplayready/2.3.2000sfa/playready-player-2.3.2000sfa.zip" }
   s.platform        = :ios
   s.frameworks      = 'AVFoundation', 'SystemConfiguration', 'AudioToolbox', 'CFNetwork', 'MessageUI', 'CoreMedia'
   s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/MSPlayReady"' }
