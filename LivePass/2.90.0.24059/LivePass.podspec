@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name            = "LivePass"
   s.version         = "2.90.0.24059"
   s.homepage        = "https://developer.conviva.com"
-  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/livepass/2.90.0.24059/livepass-2.90.0.24059.zip" }
+  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/LivePass/2.90.0.24059/livepass-2.90.0.24059.zip" }
   s.platform        = :ios
   s.frameworks      = 'SystemConfiguration', 'CoreMedia'
   s.weak_frameworks = 'AVFoundation', 'MediaPlayer'

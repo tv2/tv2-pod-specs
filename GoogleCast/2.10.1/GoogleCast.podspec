@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name            = "GoogleCast"
   s.version         = "2.10.1"
   s.homepage        = "https://developers.google.com/cast/"
-  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/googlecast/2.10.1/googlecast-2.10.1.zip" }
+  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/GoogleCast/2.10.1/googlecast-2.10.1.zip" }
   s.platform        = :ios
   s.preserve_paths  = 'GoogleCast.framework'
   s.ios.vendored_frameworks = 'GoogleCast.framework'

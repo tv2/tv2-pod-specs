@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary         = "Google Chromecast SDK"
   s.version         = "2.5.2"
   s.homepage        = "https://developers.google.com/cast/"
-  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/googlecast/2.5.2/googlecast-2.5.2.zip" }
+  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/GoogleCast/2.5.2/googlecast-2.5.2.zip" }
   s.platform        = :ios, '5.0'
   s.preserve_paths  = 'GoogleCast.framework'
   s.ios.vendored_frameworks = 'GoogleCast.framework'
