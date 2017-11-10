@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license         = 'MIT'
   s.homepage        = "https://github.com/AFNetworking/AFNetworking"
   s.author          = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/afdnetworking/1.0.0/afdnetworking-1.0.0.zip" }
+  s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/AFDNetworking/1.0.0/afdnetworking-1.0.0.zip" }
   s.platform        = :ios
   s.frameworks      = 'MobileCoreServices', 'CoreGraphics', 'Security', 'SystemConfiguration'
   s.source_files    = 'AFDNetworking/*.{h,m}'
