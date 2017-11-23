@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.frameworks      = 'SystemConfiguration', 'CoreMedia'
   s.weak_frameworks = 'AVFoundation', 'MediaPlayer'
   s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/LivePass"' }
-  s.preserve_paths  = 'libLivePass3.a'
+  s.preserve_paths  = 'libLivePass3AV.a'
   s.source_files    = '*.h'
-  s.libraries       = 'livePass3'
+  s.libraries       = 'livePass3AV'
 end
