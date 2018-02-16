@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.platform        = :ios
   s.preserve_paths  = 'GoogleCast.framework'
   s.ios.vendored_frameworks = 'GoogleCast.framework'
-  s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => "'${PODS_ROOT}/GoogleCast/'" }
+  s.xcconfig        = { 'FRAMEWORK_SEARCH_PATHS' => "'${PODS_ROOT}/google-cast-sdk/'" }
   s.frameworks      = 'SystemConfiguration', 'CoreGraphics', 'CoreText', 'UIKit', 'Foundation', 'CoreBluetooth', 'AVFoundation', 'MediaPlayer', 'MediaToolbox', 'AudioToolbox', 'Accelerate', 'GoogleCast'
   s.weak_frameworks = 'MediaAccessibility'
   s.requires_arc 	= true
