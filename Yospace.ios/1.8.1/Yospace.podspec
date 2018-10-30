@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name            = "Yospace"
+  s.name            = "Yospace.ios"
   s.version         = "1.8.1"
   s.homepage        = "http://developer.yospace.com/SDK/iOS/AdManagementSDK/Documentation/html/docs/Doc/howto.html"
   s.source          = { :http => "https://github.com/tv2/apps-apple-external-repositories/raw/master/Yospace.ios/1.8.1/yospace-ios-1.8.1.zip" }
