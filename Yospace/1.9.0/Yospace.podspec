@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.platform        = :tvos
   s.frameworks      = 'SystemConfiguration'
   s.xcconfig        = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Yospace"',
-                        'OTHER_LDFLAGS' => '"$(PODS_ROOT)/Yospace.ios/libYoAdManagement-tvos.a"'}
+                        'OTHER_LDFLAGS' => '"$(PODS_ROOT)/Yospace/libYoAdManagement-tvos.a"'}
   s.preserve_paths  = 'libYoAdManagement-tvos.a'
   s.source_files    = '*.h'
 end
