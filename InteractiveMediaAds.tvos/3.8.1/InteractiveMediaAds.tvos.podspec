@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name            = "GoogleAds-IMA-tvOS-SDK"
+  s.name            = "InteractiveMediaAds.tvos"
   s.version         = "3.8.1"
   s.author          = "Google, Inc."
   s.summary         = "Google Ads IMA SDK for tvOS 11.0+."
